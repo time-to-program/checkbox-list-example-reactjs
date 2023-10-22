@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.card {
+  width: 22rem;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 0.5rem;
+  box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.04);
+}
+
+.card-header {
+  border-bottom: 1px solid #f6f6f6;
+  padding: 1rem 1.2rem;
+  background-color: #00a8e7;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+.card-body {
+  padding: 1rem 1.2rem;
+}
+
+.checkbox-container {
+  padding: 0.2rem;
+}
+
+label {
+  font-size: 0.8rem;
+  color: #343434;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.list-container {
+  padding: 0.5rem 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chip {
+  padding: 0.3rem 1rem;
+  background-color: #eef7fe;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+}
+
+.chip-label {
+  font-size: 0.7rem;
+  color: #19344a;
+}
+
+input[type="checkbox"] {
+  color: #fff;
+  cursor: pointer;
+}
